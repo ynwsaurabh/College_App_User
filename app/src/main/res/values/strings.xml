@@ -1,0 +1,49 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Student Portal</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="bold" tools:ignore="ReferenceType">@font/latobold</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/latoregular</string>
+    <string name="light" tools:ignore="ReferenceType">@font/latolight</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="action">AVMs Kbp Degree College</string>
+    <string name="academics">Academics</string>
+    <string name="ebooks">Ebooks</string>
+    <string name="events">Events</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="website">Website</string>
+    <string name="share">Share</string>
+    <string name="rate_us">Rate us</string>
+    <string name="logout">Logout</string>
+    <string name="OEF">Bal Vidyamandir Primary School [Marathi and Semi-English Medium]\n
+Bal Vidyamandir Secondary School [Marathi and Semi-English Medium]\n
+Adarsh English School [Pre Primary, Primary and Secondary]\n
+Karmaveer Bhaurao Patil Junior College [Arts, Commerce and Science]\n
+YCMOU Study Center</string>
+
+
+    <string name="about_clg">Adarsh Vikas Mandal was founded in the year 1984 by renowned politician and veteran social worker Late Shree B.B. More Sir to cater to the educational needs of socially and economically challenged section of the society living around the area in particular. The institute established Karmaveer Bhaurao Patil Degree College in the year 2009 for providing quality higher education to aspiring students. \nThe institution provides a learning environment and encourages the students to develop a modern outlook towards life. The college offers traditional as well as professional undergraduate courses like Bachelor of Commerce, Bachelor of Arts, Bachelor of Accounting and Finance, Bachelor of Banking and Insurance, and Bachelor of Science in Information Technology.</string>
+
+    <string name="welcome_msg">Adarsh Vikas Mandal was founded in the year 1984 by renowned politician &amp; veteran social worker Late Shree B.B. More Sir to cater to the educational needs of socially and economically challenged section of the society living around the area in particular. The institute established Karmaveer Bhaurao Patil Degree College in the year 2009 for providing quality higher education to aspiring students.
+        \nThe institution provides a learning environment and encourages the students to develop a modern outlook towards life. The college offers traditional as well as professional undergraduate courses like B.Com, B.A,BAF, BBI, and Bsc IT.</string>
+    <string name="departments">Departments</string>
+    <string name="welcome">Welcome</string>
+    <string name="bsc_it">Bsc.IT</string>
+    <string name="bscit_objective">1. To main objectives is to provide basic inputs in various aspects and board understanding of IT and Management of IT.\n2. To cater to the needs of the business by bridging the gap between managerial practices and Information Technology.\n3. To produce employable graduate in Information Technology which will enable the industry to grow and he graduates to become successful in the field of Information Technology.</string>
+    <string name="bscit">1. Duration : 3 Years (6 Semesters)\n2. Total Intake : 60\n3. This is an integrated three year degree course divided into six semesters introduced and designed by Mumbai University keeping in view the following objectives:-\n4. This is an integrated three year degree course divided into six semesters introduced and designed by Mumbai University keeping in view the following objectives:-</string>
+    <string name="title_activity_login2">LoginActivity2</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+</resources>

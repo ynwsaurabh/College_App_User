@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".ui.Academy.BbiActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bachelor of Commerce (Banking and Insurance)"
+                android:layout_marginTop="30dp"
+                android:textSize="17.5dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/textColor"
+                android:fontFamily="@string/bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Duration : 3 Years (6 Semesters)\n
+2. Total Intake : 60\n
+3. 5208 The Title : The degree shall be titled as Bachelor of Commerce ( Banking and Insurance ) Objectives of the degree:\n4. To create for the students of University of Mumbai an additional avenue of self employment and also to benefit Banks, Insurance Companies and Industries by providing them with suitable trained persons in the field of Banking and Insurance."
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textSize="@dimen/text_size0"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/textColor"
+                android:fontFamily="@string/light"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@string/regular"
+                android:text="Objectives:"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/text_size1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. To prepare student to exploit opportunities, being newly created in the field of Banking and Insurance due to Globalization, Privatization and Liberalization.\n2. To provide adequate basic understanding about the Banking, Insurance and other financial services among the students.\n3. To give an adequate exposure to operational environment in the field of Banking, Insurance and other related financial services.\n4. To inculcate training and practical approach among the students by using modern technologies in the field of Banking, Insurance etc."
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textSize="@dimen/text_size0"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/textColor"
+                android:fontFamily="@string/light"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@string/regular"
+                android:text="Duration of Course:"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/text_size1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. The course shall be full time course. The duration of the course shall be six semesters spread over three years.\n2. The course shall consist of 36 subjects and 1 Project in each subject.\n3. Total number of lectures per paper per semester ( Lecture shall be maximum of 60, each of 50 minutes duration.).\n"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textSize="@dimen/text_size0"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/textColor"
+                android:fontFamily="@string/light"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@string/regular"
+                android:text="Eligibility: (0.5204)"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/text_size1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.  A candidate for being eligible for admission to this course shall have passed HSC Exam or equivalent exam by securing not less than 35% marks at first attempt.\n2.  Every candidate admitted to the Degree Course in the constituent / affiliated college / recognized institution, conducting the course, shall have to register himself / herself with the University."
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textSize="@dimen/text_size0"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/textColor"
+                android:fontFamily="@string/light"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@string/regular"
+                android:text="Syllabus."
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/text_size1" />
+
+            <ViewFlipper
+                android:id="@+id/flipper_bbi"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="17dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_dhome"
+            android:menuCategory="secondary"
+            android:title="Home" />
+
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_gallery"
+            android:menuCategory="secondary"
+            android:title="Gallery" />
+
+        <item
+            android:id="@+id/navigation_academy"
+            android:icon="@drawable/ic_academics"
+            android:menuCategory="secondary"
+            android:title="academics" />
+
+        <item
+            android:id="@+id/navigation_exam"
+            android:icon="@drawable/ic_newsfeed"
+            android:menuCategory="secondary"
+            android:title="Exam" />
+
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:menuCategory="secondary"
+            android:title="About Us" />
+
+
+        <item
+            android:id="@+id/navigation_website"
+            android:icon="@drawable/ic_website"
+            android:menuCategory="secondary"
+            android:title="website" />
+
+        <item
+            android:id="@+id/navigation_contact"
+            android:icon="@drawable/ic_contact"
+            android:menuCategory="secondary"
+            android:title="contact Us" />
+
+    </group>
+
+    <item
+        android:id="@+id/navigation_logout"
+        android:icon="@drawable/ic_logout"
+        android:menuCategory="secondary"
+        android:title="logout" />
+
+</menu>

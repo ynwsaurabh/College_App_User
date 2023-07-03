@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_margin="4dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="37dp"
+                android:layout_height="37dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kbplogo2"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kbp College"
+                    android:layout_gravity="center_vertical"
+
+                    android:textSize="18dp"
+                    android:textColor="@color/textColor"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Date :"
+                        android:fontFamily="@font/latolight"
+                        android:textSize="@dimen/text_size01"
+                        android:textColor="@color/textColor"/>
+                    <TextView
+                        android:id="@+id/date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="26 apr 2000 :"
+                        android:fontFamily="@font/latolight"
+                        android:textSize="@dimen/text_size01"
+                        android:textColor="@color/textColor"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time :"
+                        android:layout_marginLeft="@dimen/text_margin"
+                        android:fontFamily="@font/latolight"
+                        android:textSize="@dimen/text_size01"
+                        android:textColor="@color/textColor"/>
+                    <TextView
+                        android:id="@+id/time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="11:11"
+                        android:fontFamily="@font/latolight"
+                        android:textSize="@dimen/text_size01"
+                        android:textColor="@color/textColor"/>
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="5dp"
+            android:background="#111315"/>
+
+        <TextView
+            android:id="@+id/deleteNoticeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:linksClickable="true"
+            android:autoLink="web"
+            android:layout_marginVertical="@dimen/text_margin"
+            android:text="duhfehfoiqhffffdhBSJdbjkdjhd dudj9du 9duiodhk u hdod9pud pD DDUAOPDU0DDHIODPDUapdup9ddudd"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:textColor="@color/textColor"/>
+        <TextView
+            android:id="@+id/deleteNoticeDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:linksClickable="true"
+            android:autoLink="web"
+            android:text="duhfek"
+            android:textStyle="normal"
+            android:textSize="17dp"
+            android:textColor="@color/textColor"/>
+        <ImageView
+            android:id="@+id/deleteNoticeImage"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"/>
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

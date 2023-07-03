@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/purple_200"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:padding="-10dp"
+        android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/updateFacultyImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="19dp"
+        android:src="@drawable/avatar" />
+
+        <TextView
+            android:id="@+id/dhname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:fontFamily="@font/latoregular"
+
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/dhemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:fontFamily="@font/latoregular"
+
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/dhmobileno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:fontFamily="@font/latoregular"
+
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+    <ImageView
+        android:id="@+id/edit"
+        android:layout_marginTop="-150dp"
+        android:contentDescription="@null"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginHorizontal="235dp"
+        android:src="@drawable/ic_edit"
+        />
+    </LinearLayout>
+
+</LinearLayout>

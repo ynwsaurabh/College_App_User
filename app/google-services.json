@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "84723723608",
+    "project_id": "kbp-college-86c63",
+    "storage_bucket": "kbp-college-86c63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84723723608:android:5152012f5470407d22492d",
+        "android_client_info": {
+          "package_name": "com.example.kbp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84723723608-2ieu4aib6fg14i48u93mc0cpqcau55gi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCURwEsb3Vzgk6sy40MGuF8UoJQKLawS6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84723723608-2ieu4aib6fg14i48u93mc0cpqcau55gi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

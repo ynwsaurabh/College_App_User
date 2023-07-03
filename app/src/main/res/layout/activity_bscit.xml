@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".ui.Academy.BscitActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bachelor of Science (Information Technology)"
+                android:layout_marginTop="30dp"
+                android:textSize="18dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/textColor"
+                android:fontFamily="@string/bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bscit"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textSize="@dimen/text_size0"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/textColor"
+                android:fontFamily="@string/light"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@string/regular"
+                android:text="Objectives:"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/text_size1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bscit_objective"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textSize="@dimen/text_size0"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/textColor"
+                android:fontFamily="@string/light"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@string/regular"
+                android:text="Duration of Course:"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/text_size1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. The course shall be full time course. The duration of the course shall be six semesters spread over three years.
+2. Intake capacity – 60 students.\n
+3. The course shall be consist of 29 modules of 150 marks each and 1 project of 150 marks each.\n
+4. Each semester shall consist of 5 papers. Semester VI will have 4 papers and one project.\n
+5. Total number of lectures per paper per semester shall be maximum 55 of 50 minutes duration each."
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textSize="@dimen/text_size0"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/textColor"
+                android:fontFamily="@string/light"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@string/regular"
+                android:text="Eligibility: (0.5204)"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/text_size1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. A candidate for being eligible for admission to this course shall have passed HSC Exam or equivalent exam by securing not less than 35% marks.\n(Mathematics subject is compulsory for HSC)\n2. Student passing an exam equivalent to HSC Board, Mumbai and Inter-Mediate (Arts / Commerce / science ) of Mumbai University or from other state and immigrating from other Universities , Boards and Seeking admission to the first year, will be admitted if he / she produce a valid “Provisional Eligibility Certificate” issued by \nMumbai University for the current academic year and for the desired course. \nSuch students should submit migration certificate, Statement of Marks and Passing Certificate along with true copies within two months from the date of admission.\n If student fails to do so, admission is liable to be cancelled.\n3. Every candidate admitted to the degree course in the affiliated college shall have register with the Mumbai University."
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textSize="@dimen/text_size0"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/textColor"
+                android:fontFamily="@string/light"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@string/regular"
+                android:text="Syllabus:"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/text_size1" />
+
+            <ViewFlipper
+                android:id="@+id/flipper_bscit"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="17dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
